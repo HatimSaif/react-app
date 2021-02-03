@@ -40,4 +40,4 @@ jobs:
       - name: installing surge
         run: npm install -g surge
       - name: deploying on surge
-        run: surge ./build http://noiseless-wrench.surge.sh/ --token ${{secrets.SURGE_TOKEN}}
+        run: surge ./build http://quarrelsome-birds.surge.sh/ --token ${{secrets.SURGE_TOKEN}}
